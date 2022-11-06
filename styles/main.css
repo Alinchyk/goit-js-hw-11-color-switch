@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -348,4 +349,4 @@ template {
   display: none;
 }
 
-
+*{padding:0;margin:0;box-sizing:border-box}.color-switch{display:flex;justify-content:center;gap:20px}.title{text-align:center;font-family:"Lobster",cursive;font-weight:400;background-image:-webkit-linear-gradient(90deg, #00a49b, #026773, #092c4e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:90px;letter-spacing:1px;text-shadow:0px 4px 3px rgba(0,0,0,.4),0px 8px 13px rgba(0,0,0,.1),0px 18px 23px rgba(0,0,0,.1)}button{min-width:300px;min-height:60px;font-family:"Lobster",cursive;font-size:22px;text-transform:uppercase;letter-spacing:1.3px;font-weight:700;color:#313133;margin-top:60px;background:#00a49b;background:linear-gradient(90deg, #81e6d9 0%, #4fd1c5 100%);border:none;border-radius:1000px;box-shadow:12px 12px 24px rgba(79,209,197,.64);transition:all .3s ease-in-out 0s;cursor:pointer;outline:none;position:relative;padding:10px}button::before{content:"";border-radius:1000px;min-width:312px;min-height:72px;border:6px solid #092c4e;box-shadow:0 0 60px rgba(0,255,203,.64);position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);opacity:0;transition:all .3s ease-in-out 0s}button:hover,.button:focus{color:#313133;transform:translateY(-6px)}button:hover::before,button:focus::before{opacity:1}button::after{content:"";width:30px;height:30px;border-radius:100%;border:6px solid #026773;position:absolute;z-index:-1;top:50%;left:50%;transform:translate(-50%, -50%);animation:ring 1.5s infinite}button:hover::after,button:focus::after{animation:none;display:none}@keyframes ring{0%{width:30px;height:30px;opacity:1}100%{width:300px;height:300px;opacity:0}}
